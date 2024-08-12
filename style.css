@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F7F9FC;
+  background-color: #aabcd6;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -18,17 +18,20 @@ div {
   display: block;
   padding: 10px;
   width: 390px;
+
 }
 
 .container{
   text-align: center;
   margin: 0 auto;
+
 }
 
 #container{
   text-align: center;
   margin: 0 auto;
   margin-top: 15px;
+  border: 2px dotted rgb(40, 71, 173);
 }
 
 .card-white {
@@ -46,6 +49,7 @@ div {
 
 p {
   display: block;
+  text-align: justify;
 }
 
 .btn-blue {
@@ -55,6 +59,11 @@ p {
   padding: 10px;
   border-radius: 4px;
   display: inline-block;
+  transition: background-color 0.5s;
+}
+
+.btn-blue:hover{
+  background-color: #45a049;
 }
 
 h1 {
@@ -84,8 +93,12 @@ li {
 .list-inline i {
   font-size: 50px;
   color: rgb(230, 230, 230);
+  transition: background-color 0.5s;
 }
 
+.list-inline i:hover{
+  background-color: #6b7c6c;
+}
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
